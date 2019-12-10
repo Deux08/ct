@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G1012" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDContactHeader" representedClassName="CDContactHeader" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="contactNumber" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDContactNumber" inverseName="contactHeader" inverseEntity="CDContactNumber"/>
+    </entity>
+    <entity name="CDContactNumber" representedClassName="CDContactNumber" syncable="YES" codeGenerationType="class">
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <relationship name="contactHeader" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDContactHeader" inverseName="contactNumber" inverseEntity="CDContactHeader"/>
+    </entity>
+    <elements>
+        <element name="CDContactHeader" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="CDContactNumber" positionX="243.2265625" positionY="123.5390625" width="128" height="73"/>
+    </elements>
+</model>

@@ -15,6 +15,13 @@
 		5FB472112396D42200385EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB4720F2396D42200385EC0 /* LaunchScreen.storyboard */; };
 		5FB4721C2396D42200385EC0 /* pract2CTFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4721B2396D42200385EC0 /* pract2CTFinalTests.swift */; };
 		5FB472272396D42200385EC0 /* pract2CTFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB472262396D42200385EC0 /* pract2CTFinalUITests.swift */; };
+		5FFD1405239AA08E003991BE /* ctPract2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD1403239AA08E003991BE /* ctPract2.xcdatamodeld */; };
+		5FFD1407239AA5C1003991BE /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD1406239AA5C1003991BE /* AddContactViewController.swift */; };
+		5FFD1409239AA809003991BE /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD1408239AA809003991BE /* ShowContactViewController.swift */; };
+		5FFD140B239AAB0D003991BE /* ContactHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD140A239AAB0D003991BE /* ContactHeader.swift */; };
+		5FFD140D239AAB22003991BE /* ContactNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD140C239AAB22003991BE /* ContactNumber.swift */; };
+		5FFD140F239AC9F0003991BE /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD140E239AC9F0003991BE /* ContactController.swift */; };
+		5FFD1411239D4DDC003991BE /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD1410239D4DDC003991BE /* EditContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		5FB472222396D42200385EC0 /* pract2CTFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pract2CTFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB472262396D42200385EC0 /* pract2CTFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pract2CTFinalUITests.swift; sourceTree = "<group>"; };
 		5FB472282396D42200385EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFD1404239AA08E003991BE /* ctPract2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ctPract2.xcdatamodel; sourceTree = "<group>"; };
+		5FFD1406239AA5C1003991BE /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		5FFD1408239AA809003991BE /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
+		5FFD140A239AAB0D003991BE /* ContactHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHeader.swift; sourceTree = "<group>"; };
+		5FFD140C239AAB22003991BE /* ContactNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNumber.swift; sourceTree = "<group>"; };
+		5FFD140E239AC9F0003991BE /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		5FFD1410239D4DDC003991BE /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				5FB4720D2396D42200385EC0 /* Assets.xcassets */,
 				5FB4720F2396D42200385EC0 /* LaunchScreen.storyboard */,
 				5FB472122396D42200385EC0 /* Info.plist */,
+				5FFD1403239AA08E003991BE /* ctPract2.xcdatamodeld */,
+				5FFD1406239AA5C1003991BE /* AddContactViewController.swift */,
+				5FFD1408239AA809003991BE /* ShowContactViewController.swift */,
+				5FFD140A239AAB0D003991BE /* ContactHeader.swift */,
+				5FFD140C239AAB22003991BE /* ContactNumber.swift */,
+				5FFD140E239AC9F0003991BE /* ContactController.swift */,
+				5FFD1410239D4DDC003991BE /* EditContactViewController.swift */,
 			);
 			path = pract2CTFinal;
 			sourceTree = "<group>";
@@ -259,9 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFD1405239AA08E003991BE /* ctPract2.xcdatamodeld in Sources */,
 				5FB472092396D41F00385EC0 /* ViewController.swift in Sources */,
 				5FB472052396D41F00385EC0 /* AppDelegate.swift in Sources */,
+				5FFD140D239AAB22003991BE /* ContactNumber.swift in Sources */,
+				5FFD140B239AAB0D003991BE /* ContactHeader.swift in Sources */,
+				5FFD1411239D4DDC003991BE /* EditContactViewController.swift in Sources */,
+				5FFD1407239AA5C1003991BE /* AddContactViewController.swift in Sources */,
+				5FFD1409239AA809003991BE /* ShowContactViewController.swift in Sources */,
 				5FB472072396D41F00385EC0 /* SceneDelegate.swift in Sources */,
+				5FFD140F239AC9F0003991BE /* ContactController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +612,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FFD1403239AA08E003991BE /* ctPract2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FFD1404239AA08E003991BE /* ctPract2.xcdatamodel */,
+			);
+			currentVersion = 5FFD1404239AA08E003991BE /* ctPract2.xcdatamodel */;
+			path = ctPract2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5FB471F92396D41F00385EC0 /* Project object */;
 }
